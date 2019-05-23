@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558617681026.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4052236592",
+    "id" : "B285A692",
+    "lastKnownWriteTime" : 1558617690,
+    "last_content_update" : 1558617690445,
+    "path" : "~/Hydromod/R/Hydromod_StreambankState_2018.R",
+    "project_path" : "R/Hydromod_StreambankState_2018.R",
+    "properties" : {
+        "cursorPosition" : "93,141",
+        "scrollLine" : "87"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

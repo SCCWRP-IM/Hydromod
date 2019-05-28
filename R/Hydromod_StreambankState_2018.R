@@ -229,12 +229,15 @@ for (i in AList) {
       }
   }
   if (FirstTime == 1){
+    print("test if")
     StationCodeCurrent2 <- StationCodeCurrent
   } else{
+    print("test else")
     StationCodeCurrent2 <- rbind(StationCodeCurrent2, StationCodeCurrent)
   }
   FirstTime <- FirstTime + 1
 }
+print("test after")
 AllHydromod2 <- StationCodeCurrent2
 #write.csv(AllHydromod2, file="Z:/SMCStreamMonitoringProgram/Data/2018_Data/Hydromod/Weston/COSD and RCFCD_Weston_2018_VerticalSusceptibility.csv")
 

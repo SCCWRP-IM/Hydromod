@@ -162,7 +162,10 @@ AList  <- AList$StationCode
 FirstTime <- 1
 print("FirstTime")
 print(FirstTime)
-    
+
+print("Alist")
+print(Alist)
+
 for (i in AList) {
   StationCodeCurrent  <- AllHydromod[AllHydromod$StationCode == i, ]   #Subset data for current StationCode
   if (StationCodeCurrent$FullyArmored == "Yes") {

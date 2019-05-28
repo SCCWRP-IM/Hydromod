@@ -160,7 +160,9 @@ AList  <- AList$StationCode
 #i <- "903M20235"   #Used to test code.  Delete or disable when code is working
 #i <- "903M20214"   #Used to test code.  Delete or disable when code is working
 FirstTime <- 1
-
+print("FirstTime")
+print(FirstTime)
+    
 for (i in AList) {
   StationCodeCurrent  <- AllHydromod[AllHydromod$StationCode == i, ]   #Subset data for current StationCode
   if (StationCodeCurrent$FullyArmored == "Yes") {
@@ -228,6 +230,8 @@ for (i in AList) {
         }
       }
   }
+  print("FirstTime")
+  print(FirstTime)
   if (FirstTime == 1){
     print("test if")
     StationCodeCurrent2 <- StationCodeCurrent

@@ -162,11 +162,7 @@ AList  <- AList$StationCode
 #i <- "903M20235"   #Used to test code.  Delete or disable when code is working
 #i <- "903M20214"   #Used to test code.  Delete or disable when code is working
 FirstTime <- 1
-print("FirstTime")
-print(FirstTime)
 
-print("Alist")
-print(AList)
 
 for (i in AList) {
   StationCodeCurrent  <- AllHydromod[AllHydromod$StationCode == i, ]   #Subset data for current StationCode
@@ -282,7 +278,7 @@ AllHydromod2$LateralSusceptibilityR <- ifelse(AllHydromod2$FullyArmored == "Yes"
 
 ##Decision Tree Loop
 AList  <- AllHydromod2[!duplicated(AllHydromod2$StationCode), ]
-AList  <- AList$stationcode
+AList  <- AList$StationCode
 #i <- "902M18864"  #Used to test code.  Delete or disable when code is working
 #i <- "SMC01097"   #Used to test code.  Delete or disable when code is working
 #i <- "404M07354"  # Fully armored site used to test code.

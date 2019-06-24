@@ -155,7 +155,7 @@ AllHydromod$INDEX   <- AllHydromod$ValleySlope * (AllHydromod$Q10^0.5)          
 
 ## Vertical Susceptibility Loop
 AList  <- AllHydromod[!duplicated(AllHydromod$StationCode), ]
-AList  <- AList$StationCode
+AList  <- AList$stationcode
 #i <- "907M23349"  #Used to test code.  Delete or disable when code is working
 #i <- "903M20235"   #Used to test code.  Delete or disable when code is working
 #i <- "903M20214"   #Used to test code.  Delete or disable when code is working
@@ -280,7 +280,7 @@ AllHydromod2$LateralSusceptibilityR <- ifelse(AllHydromod2$FullyArmored == "Yes"
 
 ##Decision Tree Loop
 AList  <- AllHydromod2[!duplicated(AllHydromod2$StationCode), ]
-AList  <- AList$StationCode
+AList  <- AList$stationcode
 #i <- "902M18864"  #Used to test code.  Delete or disable when code is working
 #i <- "SMC01097"   #Used to test code.  Delete or disable when code is working
 #i <- "404M07354"  # Fully armored site used to test code.

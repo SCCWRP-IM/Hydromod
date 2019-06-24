@@ -288,6 +288,9 @@ AList  <- AList$stationcode
 #i <- "404M07354"  # Fully armored site used to test code.
 FirstTime <- 1
 
+print("Here is AList")
+print(Alist)
+    
 for (i in AList) {
   StationCodeCurrent3  <- AllHydromod2[AllHydromod2$StationCode == i, ]   #Subset data for current StationCode
 

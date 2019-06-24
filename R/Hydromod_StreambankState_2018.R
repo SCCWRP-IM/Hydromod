@@ -285,7 +285,7 @@ AList  <- AList$StationCode
 FirstTime <- 1
 
 print("Here is AList")
-print(Alist)
+print(AList)
     
 for (i in AList) {
   StationCodeCurrent3  <- AllHydromod2[AllHydromod2$StationCode == i, ]   #Subset data for current StationCode

@@ -706,7 +706,14 @@ for (i in AList) {
     }
     FirstTime <- FirstTime + 1
   }
+  
+  print("Here is the structure of StationCodeCurrent3:")
+  print(str(StationCodeCurrent3))
+  print('\n')
+  print("Here are the column names of StationCodeCurrent3:")
+  print(colnames(StationCodeCurrent3))
 
+    
   #Average L1, L2, L3, R1, R2, R3
   #First convert designations (low, medium, high, very high) to values, then average
   StationCodeCurrent4$LatSuscept.L1 <- ifelse(StationCodeCurrent4$LatRating.L1 == "LOW", 1,

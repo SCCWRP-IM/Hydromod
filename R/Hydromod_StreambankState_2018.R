@@ -153,6 +153,8 @@ AllHydromod$INDEX   <- AllHydromod$ValleySlope * (AllHydromod$Q10^0.5)          
     ###   instead of determining armoring potential and grade control.  Therefore the program has been revised to reflect this.
 
 
+print("ZAIB WAS HERE")
+    
 ## Vertical Susceptibility Loop
 AList  <- AllHydromod[!duplicated(AllHydromod$StationCode), ]
 AList  <- AList$StationCode

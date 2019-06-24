@@ -155,7 +155,7 @@ AllHydromod$INDEX   <- AllHydromod$ValleySlope * (AllHydromod$Q10^0.5)          
 
 ## Vertical Susceptibility Loop
 AList  <- AllHydromod[!duplicated(AllHydromod$StationCode), ]
-AList  <- AList$stationcode
+AList  <- AList$StationCode
 #i <- "907M23349"  #Used to test code.  Delete or disable when code is working
 #i <- "903M20235"   #Used to test code.  Delete or disable when code is working
 #i <- "903M20214"   #Used to test code.  Delete or disable when code is working
